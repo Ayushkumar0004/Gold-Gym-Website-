@@ -1,0 +1,528 @@
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/style1.css">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        * {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .container {
+            clear: both;
+            overflow: auto;
+            background-color: rgb(212, 145, 1);
+        }
+
+
+        .logo img {
+            float: left;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 8px;
+            font-size: 20px;
+            font-family: raleway;
+            background-color: rgb(9, 6, 44);
+            color: #fff;
+            border-radius: 12px;
+        }
+
+        ul li:hover {
+            color: orange;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            border-right: 1px #ccc solid;
+            background-color: rgb(255, 186, 137);
+        }
+
+        .column2 {
+            float: left;
+            width: 80%;
+            padding: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://pbs.twimg.com/profile_images/971990501275533313/iSN40vhI_400x400.jpg"
+                alt="" width="130" />
+        </div>
+        <nav>
+            <center>
+                <ul>
+                    <li style="float: left; background-color: rgba(255, 235, 205, 0);"><img
+                            width="50px" alt=""></li>
+                    <li>Home</li>
+                    <li>Time table</li>
+                    <li>Exams</li>
+                    <li>Change Pasword</li>
+                    <li>logout</li>
+                </ul>
+            </center>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div style="text-align: center;">
+                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/graduate-student-6368706-5250853.png"
+                    style="border-radius: 50%; width: 60%;" alt="">
+            </div>
+            <div style="text-align: left; padding-left: 40px;">
+                <hr>
+                <p>Student Name: Sushant Kumar</p>
+                <p>Roll Number: RKOC28-17</p>
+                <p>Section: KOC28</p>
+                <p>Group: Group-1</p>
+            </div>
+            <div style="text-align: left; padding-left: 40px;">
+                <p>Fee Status: Paid</p>
+                <p>Father Name: confidential </p>
+                <p>Mother Name: confidential</p>
+                <p>Phone No: 76309188XX</p>
+            </div>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br><br>
+            <br>
+            <br><br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+
+        </div>
+        <div class="column2">
+            <div>
+                <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- timetable -->
+<h2>Timetable</h2>
+<div class='centered'>
+  <div class='info'>
+  <div id='schedule'>
+    <div class='s-legend'>
+      <div class='s-cell s-head-info'>
+        <div class='s-name'>TT</div>
+      </div>
+      <div class='s-week-day s-cell'>
+        <div class='s-day'>Mon</div>
+      </div>
+      <div class='s-week-day s-cell'>
+        <div class='s-day'>Tue</div>
+      </div>
+      <div class='s-week-day s-cell'>
+        <div class='s-day'>Wed</div>
+      </div>
+      <div class='s-week-day s-cell'>
+        <div class='s-day'>Thu</div>
+      </div>
+      <div class='s-week-day s-cell'>
+        <div class='s-day'>Fri</div>
+      </div>
+    </div>
+    <div class='s-container s-block'>
+      <div class='s-head-info'>
+        <div class='s-head-hour'>
+          <div class='s-number'>0</div>
+          <div class='s-hourly-interval'>7.10-7.55</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>1</div>
+          <div class='s-hourly-interval'>8.00 - 8.45</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>2</div>
+          <div class='s-hourly-interval'>8.50 - 9.35</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>3</div>
+          <div class='s-hourly-interval'>9.45 - 10.30</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>4</div>
+          <div class='s-hourly-interval'>10.50 - 11.35</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>5</div>
+          <div class='s-hourly-interval'>11.45 - 12.30</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>6</div>
+          <div class='s-hourly-interval'>12.50 - 13.35</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>7</div>
+          <div class='s-hourly-interval'>13.45 - 14.30</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>8</div>
+          <div class='s-hourly-interval'>14.35 - 15.20</div>
+        </div>
+        <div class='s-head-hour'>
+          <div class='s-number'>9</div>
+          <div class='s-hourly-interval'>15.25 - 16.10</div>
+        </div>
+      </div>
+      <div class='s-rows-container'>
+        <div class='s-activities'>
+          <div class='s-act-row'>
+            <div class='s-act-tab green' data-hours='7.32-8.45'>
+              <div class='s-act-name'>INT:108</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Adhiraj</div>
+                <div class='s-act-room'>R-105</div>
+                <div class='s-act-group'>G1</div>
+              </div>
+            </div>
+            <div class='s-act-tab orange' data-hours='9.45-12.50'>
+              <div class='s-act-name'>MTH174</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Dr.juhi</div>
+                <div class='s-act-room'>R-121</div>
+              </div>
+            </div>
+            <div class='s-act-tab green' data-hours='13.45-14.30'>
+              <div class='s-act-name'>MTH174</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Dr.juhi</div>
+                <div class='s-act-room'>121</div>
+              </div>
+            </div>
+          </div>
+          <div class='s-act-row'>
+            <div class='s-act-tab blue' data-hours='8.50-10.08'>
+              <div class='s-act-name'>Exam</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Online Assesment</div>
+                <div class='s-act-room'>105</div>
+                <div class='s-act-group'>G1</div>
+              </div>
+            </div>
+            <div class='s-act-tab black' data-hours='10.50-12.30'>
+              <div class='s-act-name'>CSE:326</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Adhiraj</div>
+                <div class='s-act-room'>R-121</div>
+              </div>
+            </div>
+            <div class='s-act-tab orange' data-hours='14.15-15.20'>
+              <div class='s-act-name'>PES</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Dr. Juhi</div>
+                <div class='s-act-room'>121</div>
+              </div>
+            </div>
+          </div>
+          <div class='s-act-row'></div>
+          <div class='s-act-row'>
+            <div class='s-act-tab blue' data-hours='7.10-7.55'>
+              <div class='s-act-name'>PES</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Dr. Juhi</div>
+                <div class='s-act-room'>R-105</div>
+                <div class='s-act-group'>G1</div>
+              </div>
+            </div>
+            <div class='s-act-tab red' data-hours='8.23-9.35'>
+              <div class='s-act-name'>Event</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Mittal Hall</div>
+                <div class='s-act-room'>R-121</div>
+              </div>
+            </div>
+            <div class='s-act-tab pink' data-hours='15.05-16.10'>
+              <div class='s-act-name'>PHY:109</div>
+              <div class='s-wrapper'>
+                <div class='s-act-teacher'>Dr.Anjani</div>
+                <div class='s-act-room'>R-121</div>
+              </div>
+            </div>
+          </div>
+          <div class='s-act-row'></div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+        <div class='s-row s-hour-row'>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+          <div class='s-hour-wrapper s-cell'>
+            <div class='s-half-hour'></div>
+            <div class='s-half-hour'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+                </div>
+            </div>
+            <hr>
+
+            <div class="announcement">
+                <h2>Announcements</h2>
+                <hr>
+                <p> <br> Centre for Professional Enhancement (CPE) brings a great opportunity 
+                    to strengthen your skills and to make your dreams come true by attending BANK 
+                    PROBATIONARY OFFICER preparatory courses for Public Sector Aspirants.
+                    Bank PO or a Bank Probationary Officer is a post in the banking sector that is 
+                    widely sought after by aspirants across the country. Various public sector banks 
+                    conduct the bank PO exam for recruiting Probationary Officers. Given below is a list of common 
+                    bank PO exams conducted:</p>
+                    <hr>
+            </div>
+        </div>
+
+    </div>
+    <p style="text-align: center;">Created By ♥ Sushant Kumar</p>
+ 
+</body>
+
+</html>
+<!-- sushant -->
